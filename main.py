@@ -3,10 +3,6 @@ import streamlit as st
 from langchain_openai import ChatOpenAI
 from langchain import LLMChain, PromptTemplate
 
-os.environ["OPENAI_API_KEY"] = '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'
-
-# st.secrets["OPENAI_API_KEY"]
-
 tweet_template = """
 Give me {number} tweets on {topic}.
 """
