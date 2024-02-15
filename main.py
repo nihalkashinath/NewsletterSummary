@@ -13,8 +13,8 @@ gpt3_model = ChatOpenAI(model_name = "gpt-3.5-turbo-0125")  # use "gpt-4-0125-pr
 
 tweet_generator = LLMChain(prompt = tweet_prompt, llm = gpt3_model)
 
-st.title("Tweet Generator 🐦")
-st.subheader("🚀 Generate tweets on any topic")
+st.title("NL Summarizer 🐦")
+st.subheader("🚀 Key points from newletters")
 
 user_topic = st.text_input("Topic")
 
