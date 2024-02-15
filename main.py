@@ -1,12 +1,11 @@
 import os
 import streamlit as st
-#from langchain_openai import ChatOpenAI
 from langchain_together import Together
 from langchain import LLMChain, PromptTemplate
+#from langchain_openai import ChatOpenAI
+#from getpass import getpass
 
-from getpass import getpass
-
-os.environ['TOGETHER_API_KEY'] = getpass()
+#os.environ['TOGETHER_API_KEY'] = getpass()
 
 llama_model = Together(
     model="meta-llama/Llama-2-70b-chat-hf",
