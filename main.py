@@ -5,8 +5,6 @@ from langchain import LLMChain, PromptTemplate
 #from langchain_openai import ChatOpenAI
 #from getpass import getpass
 
-#os.environ['TOGETHER_API_KEY'] = getpass()
-#TOGETHER_API_KEY=7f78090fe88139a88680b5991a386120f08c7f38d98196c6448ee209df464142
 
 llama_model = Together(
     model="meta-llama/Llama-2-70b-chat-hf",
